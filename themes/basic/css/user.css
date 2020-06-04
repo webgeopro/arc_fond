@@ -1,0 +1,250 @@
+/* 
+Псевдоссылки (ссылки, которые обрабатываются javascript)
+*/
+.b-pseudo {
+	display:inline;
+	border-bottom:dotted 1px #000;
+	cursor:pointer;
+}
+.clear {
+	clear:both;
+	font-size:0 !important;
+	line-height:0 !important;
+	height:0 !important;
+}
+/*
+Часть модуля user
+*/
+.user .b-wrap {
+	width:900px;
+	margin:0 auto;
+	position:relative;
+}
+.user .b-logo {
+	position:relative;
+	top:0;
+	left:0;
+	margin-top:36px;
+	z-index:1000;
+	display:block;
+	background:url(../images/fond_logo.png) 0 0;
+	width:177px;
+	height:96px;
+	clear:both;
+	font-size:0;
+}
+.user .b-header {
+	border-top:solid 1px transparent;
+}
+.b-header .b-title {
+	font:26px/30px Arial;
+	position:absolute;
+	top:90px;
+	right:0;
+	color:#444e6e;
+}
+.b-header .b-icon_pencil {
+	display:block;
+	width:80px;
+	height:81px;
+	position:absolute;
+	background:url(../images/user/pencil.png) 0 0 no-repeat;
+	top:51px;
+	right:0;
+	margin-right:-80px;
+}
+.user .b-navi_head {
+	font:12px/39px Arial;
+	color:#fff;
+	height:39px;
+	margin-top:10px;
+	text-align:center;
+	background:url(../images/user/bgnavi.png) 0 0 no-repeat;
+}
+.b-navi_head .b-navi__item {
+	display:inline-block;
+	margin-right:48px;
+	position:relative;
+}
+.b-navi_head .b-navi__item:before {
+	content:"— ";
+}
+.b-navi_head .b-navi__item a:link,
+.b-navi_head .b-navi__item a:visited {
+	color:inherit;
+}
+.b-navi_head .b-navi__item a:hover {
+	color:#ffc;	
+}
+
+.user .b-info {
+	width:500px;
+	display:inline-block;
+	float:left;
+	position:relative;
+	left:100%;
+	margin-left:-500px;
+	background:#eee;
+	margin-top:15px;
+	margin-bottom:10px;	
+}
+.user .b-info__icon {
+	width:45px;
+	font:46px/46px Arial;
+	color:#94a083;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+}
+.user .b-info__text {
+	display:table-cell;
+	font:12px/13px Arial;
+	color:#537b22;
+	border-left:solid 1px #3b541a;
+	padding:5px 0 5px 15px;
+}
+body.user {
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+}
+.user .b-content {
+	padding-bottom: 40px;
+}
+.user .b-footer {
+	width:900px;
+	height:40px;
+	position: absolute;
+  	bottom: 0;
+	left:50%;
+	margin-left:-450px;
+}
+.user .b-footer a:link,
+.user .b-footer a:visited {
+	color:#090f84;
+}
+.user .b-footer a:hover {
+	color:#c00;
+}
+.user .b-footer__copy {
+	font:11px/20px Arial;
+	color:#666;
+	margin-bottom:20px;
+	position:relative;
+	text-align:right;	
+}
+.user .b-bg {
+	width:377px;
+	height:194px;
+	background:url(../images/user/bground.png) 0 0 no-repeat;
+	position:absolute;
+	bottom:0;
+	left:50%;
+	margin-left:227px;
+}
+.user .b-form {
+	clear:both;
+}
+.user .b-form__row {
+	clear:both;
+	margin-bottom:20px;
+}
+.user .b-form__row .required {
+	display:inline-block;
+	font:bold 18px/18px Arial;
+	padding:0;
+	margin:0;
+	text-align:center;
+	width:15px;
+}
+.user .b-form__row_captcha {
+	margin-bottom:0px;
+}
+
+.user .b-form__row input {
+	margin:0;
+}
+.user .b-form__label {
+	width:227px;
+	margin-right:8px;
+	float:left;
+	display:inline-block;
+	text-align:right;
+	font:12px/20px Arial;
+	color:#537b22;
+}
+.user .b-form__text {
+	width:184px;
+	border:solid 1px #a3a6ca;
+}
+.user .b-form__text.error {
+	border:solid 1px #c00;
+}
+.user .b-form__row_long .b-form__text {
+	width:640px;
+}
+.user .b-form__row_half {
+	display:inline-block;
+}
+.user .b-form__row_half .b-form__label {
+	width:72px;
+}	
+	
+.user .b-form__row_half .b-form__text {
+	width:270px;
+	float:left;
+}
+.user .b-title {
+	font:15px/20px Arial;
+	color:#537b22;
+	text-align:left;
+	margin:15px 0 10px;
+	display:inline-block
+}
+.user .b-form__title {
+	width:227px;
+	font:15px/20px Arial;
+	color:#537b22;
+	text-align:right;
+	margin:0 0 10px;
+	clear:both;
+}
+.user .b-form__hint {
+	margin-left:235px;
+	margin-top:5px;
+	font:11px/15px Arial;
+	width:184px;
+	color:#555;
+}
+.user .b-form__errors {
+	position:absolute;
+	right:0;
+	background:#fff;
+	color:#c00;
+	width:430px;
+	padding:10px;
+}
+.user .b-form__errors li {
+	list-style:disc;
+	margin-left:20px;
+}
+.user .b-captcha {
+	display:inline-block;
+	margin-left:-128px;
+}
+.user .b-captcha img {
+	margin-right:8px;
+}
+.user .b-captcha a {
+	display:inline-block;
+	height:40px;
+	vertical-align:top;
+	padding-top:10px;
+}
+.user .success {
+	width:800px;
+	margin-top:40px;
+	font:18px/20px Arial;
+	color:#444e6e
+}

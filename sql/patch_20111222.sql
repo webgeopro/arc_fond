@@ -1,0 +1,1 @@
+ALTER TABLE `fond`.`tbl_users` ADD COLUMN `paid` BOOLEAN DEFAULT '1' NULL AFTER `status`; 

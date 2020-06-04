@@ -1,0 +1,64 @@
+2014/12/16 22:11:15 [trace] [system.CModule] Loading "log" application component
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)
+2014/12/16 22:11:15 [trace] [system.CModule] Loading "request" application component
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)
+2014/12/16 22:11:15 [trace] [system.CModule] Loading "urlManager" application component
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)
+2014/12/16 22:11:16 [trace] [system.CModule] Loading "clientScript" application component
+in D:\Work\Web\xampp\htdocs\fond\protected\controllers\SiteController.php (30)
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)
+2014/12/16 22:11:16 [trace] [system.CModule] Loading "themeManager" application component
+in D:\Work\Web\xampp\htdocs\fond\protected\controllers\SiteController.php (31)
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)
+2014/12/16 22:11:16 [trace] [system.base.CModule] Loading "user" module
+in D:\Work\Web\xampp\htdocs\fond\themes\basic\views\layouts\start.php (46)
+in D:\Work\Web\xampp\htdocs\fond\protected\controllers\SiteController.php (40)
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)
+2014/12/16 22:11:16 [trace] [system.CModule] Loading "user" application component
+in D:\Work\Web\xampp\htdocs\fond\themes\basic\views\layouts\start.php (48)
+in D:\Work\Web\xampp\htdocs\fond\protected\controllers\SiteController.php (40)
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)
+2014/12/16 22:11:16 [trace] [system.CModule] Loading "session" application component
+in D:\Work\Web\xampp\htdocs\fond\themes\basic\views\layouts\start.php (48)
+in D:\Work\Web\xampp\htdocs\fond\protected\controllers\SiteController.php (40)
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)
+2014/12/16 22:11:16 [trace] [system.CModule] Loading "messages" application component
+in D:\Work\Web\xampp\htdocs\fond\protected\modules\user\UserModule.php (142)
+in D:\Work\Web\xampp\htdocs\fond\themes\basic\views\layouts\start.php (64)
+in D:\Work\Web\xampp\htdocs\fond\protected\controllers\SiteController.php (40)
+2014/12/16 22:11:16 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\Work\Web\xampp\htdocs\fond\themes\basic\views\layouts\start.php (74)
+in D:\Work\Web\xampp\htdocs\fond\protected\controllers\SiteController.php (40)
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)
+2014/12/16 22:11:40 [trace] [system.CModule] Loading "log" application component
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)
+2014/12/16 22:11:40 [trace] [system.CModule] Loading "request" application component
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)
+2014/12/16 22:11:40 [trace] [system.CModule] Loading "urlManager" application component
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)
+2014/12/16 22:11:40 [trace] [system.CModule] Loading "clientScript" application component
+in D:\Work\Web\xampp\htdocs\fond\protected\controllers\SiteController.php (30)
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)
+2014/12/16 22:11:40 [trace] [system.CModule] Loading "themeManager" application component
+in D:\Work\Web\xampp\htdocs\fond\protected\controllers\SiteController.php (31)
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)
+2014/12/16 22:11:40 [trace] [system.base.CModule] Loading "user" module
+in D:\Work\Web\xampp\htdocs\fond\themes\basic\views\layouts\start.php (46)
+in D:\Work\Web\xampp\htdocs\fond\protected\controllers\SiteController.php (40)
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)
+2014/12/16 22:11:40 [trace] [system.CModule] Loading "user" application component
+in D:\Work\Web\xampp\htdocs\fond\themes\basic\views\layouts\start.php (48)
+in D:\Work\Web\xampp\htdocs\fond\protected\controllers\SiteController.php (40)
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)
+2014/12/16 22:11:40 [trace] [system.CModule] Loading "session" application component
+in D:\Work\Web\xampp\htdocs\fond\themes\basic\views\layouts\start.php (48)
+in D:\Work\Web\xampp\htdocs\fond\protected\controllers\SiteController.php (40)
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)
+2014/12/16 22:11:40 [trace] [system.CModule] Loading "messages" application component
+in D:\Work\Web\xampp\htdocs\fond\protected\modules\user\UserModule.php (142)
+in D:\Work\Web\xampp\htdocs\fond\themes\basic\views\layouts\start.php (64)
+in D:\Work\Web\xampp\htdocs\fond\protected\controllers\SiteController.php (40)
+2014/12/16 22:11:40 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\Work\Web\xampp\htdocs\fond\themes\basic\views\layouts\start.php (74)
+in D:\Work\Web\xampp\htdocs\fond\protected\controllers\SiteController.php (40)
+in D:\Work\Web\xampp\htdocs\fond\index.php (15)

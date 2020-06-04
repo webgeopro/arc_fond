@@ -1,0 +1,128 @@
+#divDbfMessagesAll {
+    background-color: lime;
+    display: none;
+}
+#divDbfMessagesAll br {
+    clear: both;
+}
+#divDbfMessagesAll table {
+    padding: 0;
+    margin: 0;
+}
+#divDbfMessagesNew {
+    background-color: maroon;
+    display: none;
+}
+.tdDbfMessageAuthor {
+	/*
+    text-align: left;
+    background-color: orange;
+    */
+}
+.tdDbfMessageDate {
+    text-align: right;
+}
+.tdDbfMessageBody {
+    display: none;
+}
+.messageRed {
+    font-weight: bolder;
+    color: red;
+}
+.messageFavorite {
+    font-weight: bolder;
+    color: maroon;
+}
+#divDbfMessageBox {
+    background: url('../images/cab/box_message.png') center  center no-repeat;
+    width: 211px;
+    height: 171px;
+    vertical-align: middle;
+    text-align: center;
+}
+#areaDBFMessageBody {
+    background: #fff;
+    width: 200px;
+    height: 148px;
+    border: 0;
+    margin-top: 10px;
+}
+#formMessageSend {
+    color: #3f6024;
+}
+.divFormSend {
+    text-align: right;
+}
+.aFormSend {
+    color: #3f6024;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#divDbfMessage {
+    color: #3f6024;
+}
+#divDbfMessage a {
+    color: #6B1903;
+}
+#divDbfMessage a:hover {
+    color: #3f6024;
+}
+#Messages_verifyCode {
+    width: 80px;
+    border: 1px solid #3f6024;
+    margin-top: 15px;
+    float: left;
+}
+#divDbfMessagesList {
+	width:230px;
+	margin-top:10px;
+}
+#divDbfMessagesList .tdDbfMessageDate {
+	vertical-align:middle;
+	font:11px/20px Arial;
+	border-bottom:solid 1px #ddd;
+}
+#divDbfMessagesList .tdDbfMessageDate a {
+	display:inline-block;
+	padding:0 4px;
+	background:#ccc;
+	border-radius:2px 2px 2px 2px;
+	color:#fff;
+	text-decoration:none;
+}
+#divDbfMessagesList .tdDbfMessageDate a.messageRed {
+	background:url(../images/cab/bgbutton.png) center center repeat-x #92ac60;
+}
+
+#divDbfMessagesList .tdDbfMessageDate a.aDbfMessageBodyFavorite {
+	font-size:12px;
+	background:#ccc;
+	color:#fff;
+}
+#divDbfMessagesList .tdDbfMessageDate a.messageFavorite {
+	background:url(../images/cab/bgbutton.png) center center repeat-x #92ac60;
+	font-weight:normal;
+}
+#divDbfMessagesList .tdDbfMessageDate a:hover {
+	background:#999;
+	color:#ffc;
+}
+#divDbfMessagesList .tdDbfMessageDate a.messageRed:hover {
+	background:#6e9c30;
+}
+#divDbfMessagesList .tdDbfMessageAuthor {
+	padding:2px 0;
+	border-bottom:solid 1px #ddd;
+}
+#divDbfMessagesList .b-messages__author {
+	font:bold 12px/20px Arial;
+}
+#divDbfMessagesList .b-messages__date {
+	font:normal 11px/15px Arial;
+	color:#666;
+}
+#divDbfMessagesList .tdDbfMessageBody td {
+	padding:5px 0;
+	font:12px/20px Arial;
+	border-bottom:solid 1px #ccc;
+}

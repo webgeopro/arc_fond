@@ -1,0 +1,38 @@
+syntax: glob
+themes/basic/css/cab.css.orig
+protected/runtime/application.log
+
+syntax: regexp
+^_markup$
+syntax: regexp
+^\.externalToolBuilders$
+syntax: regexp
+^\.settings$
+syntax: regexp
+^assets$
+syntax: regexp
+^protected/config/main\.php$
+syntax: regexp
+^protected/config$
+syntax: regexp
+^\.project$
+syntax: regexp
+^protected/config/main\.php$
+syntax: regexp
+^protected/config/main\.php$
+syntax: regexp
+^\.backup$
+syntax: regexp
+^protected/runtime$
+syntax: regexp
+^protected/runtime$
+syntax: regexp
+^protected/runtime$
+syntax: regexp
+^protected/runtime$
+syntax: regexp
+^protected/runtime/application\.log\.4$
+syntax: regexp
+^protected/runtime$
+syntax: regexp
+^protected/runtime/application\.log\.4$

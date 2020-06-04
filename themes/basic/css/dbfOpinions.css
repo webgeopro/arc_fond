@@ -1,0 +1,77 @@
+#divDbfOpinionsBox {
+    background: url('../images/cab/box_message.png') center  center no-repeat;
+    width: 211px;
+    height: 171px;
+    text-align: center; 
+    position: relative;
+}
+#divDbfOpinionsSendBox {
+    background: url('../images/cab/box_message.png') center  center no-repeat;
+    width: 211px;
+    height: 171px;
+    text-align: center; 
+    position: relative;
+}
+#divDbfOpinionsSendForm {
+    margin-top: 10px;
+    color: #3F6024;
+}
+#aDbfOpinionNew {
+    float: left;
+}
+#areaDbfOpinionsBody {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none;
+    height: 148px;
+    margin-top: 10px;
+    width: 200px;
+}
+/* Easy Slider */
+#divDbfOpinions {
+    overflow: hidden;
+    
+    /*width: 200px;height: 150px;*/
+    background-color: white;
+    margin-left: 5px;
+    position: relative;
+    top: 10px; 
+}
+#divDbfOpinions ul, #divDbfOpinions li {
+	margin:0;
+	padding:0;
+	list-style:none;
+    padding:0 4px; 
+}
+#divDbfOpinions li { 
+/* define width and height of list item (slide)
+   entire slider area will adjust according to the parameters provided here */ 
+	width: 190px;
+    height: 153px;
+	overflow: hidden;
+    text-align: left;
+}
+.aDbfOpinionsDel {
+    float: right;
+}
+#aDbfOpinionsPrev {
+    background: url('arrow_tri_l.png') top left no-repeat;
+    width: 11px;
+    height: 22px;
+    position: absolute;
+    top: 80px; left: -6px;
+    z-index: 100;
+}
+#aDbfOpinionsNext {
+    background: url('arrow_tri_r.png') top left no-repeat;
+    width: 11px;
+    height: 22px;
+    position: absolute;
+    top: 80px; left: 206px;
+    z-index: 100;
+}
+#divDbfOpinionsView {
+    color: #3f6024;
+    margin-right: 4px;
+    cursor: pointer;
+    text-align: right;
+}

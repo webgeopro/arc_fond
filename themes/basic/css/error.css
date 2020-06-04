@@ -1,0 +1,115 @@
+/* 
+@todo Общую часть перенести в отдельный общий файл
+*/
+.required {
+	color:#f00;
+}
+html {height: 100%;}
+body {
+	font:12px/20px Arial;
+	color:#000;
+}
+a:link,
+a:visited {
+	color:#1C375A;
+}
+a:hover {
+	color:#c00;	
+}
+body.error {
+	background:#ededed;
+}
+/* 
+Псевдоссылки (ссылки, которые обрабатываются javascript)
+*/
+.b-pseudo {
+	display:inline;
+	border-bottom:dotted 1px #000;
+	cursor:pointer;
+}
+.clear {
+	clear:both;
+	font-size:0 !important;
+	line-height:0 !important;
+	height:0 !important;
+}
+.error .b-wrap {
+	width:900px;
+	margin:0 auto;
+	position:relative;
+}
+.error .b-logo {
+	position:relative;
+	top:0;
+	left:0;
+	margin-top:36px;
+	z-index:1000;
+	display:block;
+	background:url(../images/fond_logo.png) 0 0;
+	width:177px;
+	height:96px;
+	clear:both;
+	font-size:0;
+}
+.error .b-header {
+	border-top:solid 1px transparent;
+}
+body.error {
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+}
+.error .b-content {
+	padding-bottom: 40px;
+}
+.error .b-title {
+	font:26px/30px Arial;
+	color:#444e6e;
+	margin-top:30px;
+}
+.error .b-title_2 {
+	font:18px/20px Arial;
+	color:#000;
+	margin-top:30px;
+}
+.error ul, .error p {
+	font:12px/20px Arial;
+	margin-top:20px;
+}
+.error ul li {
+	list-style: disc;
+	margin-left:30px;
+}
+
+.error .b-footer {
+	width:900px;
+	height:40px;
+	position: absolute;
+  	bottom: 0;
+	left:50%;
+	margin-left:-450px;
+}
+.error .b-footer a:link,
+.error .b-footer a:visited {
+	color:#090f84;
+}
+.error .b-footer a:hover {
+	color:#c00;
+}
+.error .b-footer__copy {
+	font:11px/20px Arial;
+	color:#666;
+	margin-bottom:20px;
+	position:relative;
+	text-align:right;	
+}
+.error .b-bg {
+	width:377px;
+	height:194px;
+	background:url(../images/user/bground.png) 0 0 no-repeat;
+	position:absolute;
+	bottom:0;
+	left:50%;
+	margin-left:227px;
+}

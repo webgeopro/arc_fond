@@ -1,0 +1,43 @@
+#divAppointmentCalendar {
+    width: 160px;
+    background-color: blue;
+    float: left;
+}
+#tableMain td .ui-datepicker td {
+    border: 0 none;
+    padding: 1px;
+}
+.divAppointmentCalendarDay {
+    float: right;
+    width: 65px;
+    /*height: 100px;*/
+    background-color: white;
+    font-size: 11px;
+    padding: 0 4px;
+}
+.dbfAppointmentColor1 {
+    background-color: #ededed;
+}
+.dbfAppointmentColor2 {
+    background-color: #999;
+}
+.dbfAppointmentFree {
+    background-color: green;
+    color: black;
+}
+.dbfAppointmentOff {
+    background-color: red;
+    color: white;
+}
+.dbfAppointmentReserved {
+    background-color: aqua;
+}
+.dbfAppointmentAppointed {
+    background-color: gray;
+    color: white;
+}
+#divAppointmentTableDay td {
+    padding: 2px 2px 1px 0;
+    margin: 0 2px;
+    text-align: right;
+}

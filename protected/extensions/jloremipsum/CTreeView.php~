@@ -1,0 +1,96 @@
+<?php
+/**
+ * CTreeView class file.
+ *
+ * @author Qiang Xue <qiang.xue@gmail.com>
+ * @license http://www.yiiframework.com/license/
+ */
+
+/**
+ * CTreeView displays a tree view of hierarchical data.
+ *
+ * It encapsulates the excellent tree view plugin for jQuery
+ * ({@link http://bassistance.de/jquery-plugins/jquery-plugin-treeview/}).
+ *
+ * To use CTreeView, simply sets {@link data} to the data that you want
+ * to present and you are there.
+ *
+ * CTreeView also supports dynamic data loading via AJAX. To do so, set
+ * {@link url} to be the URL that can serve the tree view data upon request.
+ *
+ * @author Qiang Xue <qiang.xue@gmail.com>
+ */
+class CTreeView extends CWidget
+{
+	/**
+	 * @var string|array the URL to which the treeview can be dynamically loaded (in AJAX).
+	 * See {@link CHtml::normalizeUrl} for possible URL formats.
+	 * Setting this property will enable the dynamic treeview loading.
+	 * When the page is displayed, the browser will request this URL with a GET parameter
+	 * named 'root' whose value is 'source'. The server script should then generate the
+	 * needed tree view data corresponding to the root of the tree (see {@link saveDataAsJson}.)
+	 * When a node has a CSS class 'hasChildren', then expanding this node will also
+	 * cause a dynamic loading of its child nodes. In this case, the value of the 'root' GET parameter
+	 * is the 'id' property of the node.
+	 */
+	public $url;
+	/**
+	 * @var string container for a tree-control, allowing the user to expand, collapse and toggle all branches with one click.
+	 * In the container, clicking on the first hyperlink will collapse the tree;
+	 * the second hyperlink will expand the tree; while the third hyperlink will toggle the tree.
+	 * The property should be a valid jQuery selector (e.g. '#treecontrol' where 'treecontrol' is
+	 * the ID of the 'div' element containing the hyperlinks.)
+	 */
+	public $control;
+	/**
+	 * @var boolean set to allow only one branch on one level to be open (closing siblings which opening).
+	 * Defaults to false.
+	 */
+	public $unique;
+	/**
+	 * @var string Callback when toggling a branch. Arguments: "this" refers to the UL that was shown or hidden
+	 */
+	public $toggle;
+	/**
+	 * @var string Persist the tree state in cookies or the page location. If set to "location", looks for
+	 * the anchor that matches location.href and activates that part of the treeview it.
+	 * Great for href-based state-saving. If set to "cookie", saves the state of the tree on
+	 * each click to a cookie and restores that state on page load.
+	 */
+	public $persist;
+	/**
+	 * @var array additional options that can be passed to the constructor of the treeview js object.
+	 */
+	public $options=array();
+
+	/**
+	 * Initializes the widget.
+	 * This method registers all needed client scripts and renders
+	 * the tree view content.
+	 */
+	public function init()
+	{
+		if($this->url!==null)
+			$this->url=CHtml::normalizeUrl($this->url);
+		$cs=Yii::app()->getClientScript();
+		$cs->registerCoreScript('treeview');
+		$options=$this->getClientOptions();
+		$options=$options===array()?'{}' : CJavaScript::encode($options);
+		$cs->registerScript('Yii.CTreeView#'.$id,"jQuery(\"#{$id}\").treeview($options);");
+	}
+
+
+	/**
+	 * @return array the javascript options
+	 */
+	protected function getClientOptions()
+	{
+		$options=$this->options;
+		foreach(array('url','animated','collapsed','control','unique','toggle','persist','cookieId','prerendered') as $name)
+		{
+			if($this->$name!==null)
+				$options[$name]=$this->$name;
+		}
+		return $options;
+	}
+}

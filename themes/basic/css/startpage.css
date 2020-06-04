@@ -1,0 +1,203 @@
+/**
+ * Start page (homepage) CSS file
+ */
+body {
+	font:12px/20px Arial;
+	color:#000;
+}
+a:link,
+a:visited {
+	color:#1C375A;
+}
+a:hover {
+	color:#c00;	
+}
+/* 
+Псевдоссылки (ссылки, которые обрабатываются javascript)
+*/
+.b-pseudo {
+	display:inline;
+	border-bottom:dotted 1px #000;
+	cursor:pointer;
+}
+.clear {
+	clear:both;
+	font-size:0 !important;
+	line-height:0 !important;
+	height:0 !important;
+}
+
+.startpage .b-wrap {
+	width:1200px;
+	margin:0 auto;
+}
+.b-leftside_startpage {
+	display:inline-block;
+	width:300px;
+	float:left;
+	background:url(../images/bgleft.jpg) 0 197px no-repeat;
+}
+.b-leftside_startpage .b-city {
+	margin:168px 0 0 100px;
+}
+.b-leftside_startpage .b-city__current {
+	font-size:21px;
+	color:#3b6320;
+}
+.b-leftside_startpage .b-city__link {
+	line-height:24px;
+	color:#000;
+}
+.b-leftside_startpage .b-block {
+	margin-top:475px;
+	height:299px;
+	background:url(../images/bgleft_shadow.png) top right no-repeat;
+}
+.b-leftside_startpage .b-block__content {
+	position:relative;
+	border:solid 10px #a0a19d;
+	width:180px;
+	height:150px;
+	top:110px;
+	left:56px;
+}
+
+.startpage .b-content {
+	display:inline-block;
+	width:876px;
+	float:left;
+	background:url(../images/bgstartpage.jpg) top right repeat-y;
+	position:relative;
+	padding-left:24px;
+}
+.b-navi_head {
+	font:14px/20px Arial;
+	color:#000;
+	margin-top:32px;
+	margin-left:-1.2em;
+}
+.b-navi_head .b-navi__item {
+	display:inline-block;
+	margin-right:25px;
+	position:relative;
+}
+.b-navi_head .b-navi__item:before {
+	content:"— ";
+}
+.b-navi_head .b-navi__item a:link,
+.b-navi_head .b-navi__item a:visited {
+	color:inherit;
+}
+.b-navi_head .b-navi__item a:hover {
+	color:#666;	
+}
+
+.startpage .b-logo {
+	position:absolute;
+	z-index:1000;
+	display:block;
+	background:url(../images/fond_logo.png) 0 0;
+	width:177px;
+	height:96px;
+	clear:both;
+	margin-top:25px;
+	font-size:0;
+}
+
+.startpage .b-cloud {
+	display:block;
+	width:700px;
+	height:340px;
+	background:url(../images/bgcloud.png) 0px 37px no-repeat;
+	margin:90px 0 0 90px;
+	position:relative;
+}
+.startpage .b-cloud a {
+	position:absolute;
+	color:#1c375a;
+	z-index:10;
+}
+.startpage .b-cloud a:hover {
+	color:#c00;
+}
+.startpage .b-map {
+	margin-top:-33px;
+	display:block;
+	width:782px;
+	height:462px;
+	background:url(../images/bgmap.png) 0 0 no-repeat;
+	position:relative;
+}
+
+.b-navi_popup {
+	position:relative;
+	top:33px;
+	left:355px;
+	background-image:url(../images/bgpopup.png);
+	width:224px;
+	display:none;
+}
+.b-navi_popup .b-navi__item {
+	font:14px/38px Arial;
+	padding:0 15px;
+	display:block;
+}
+.b-navi_popup a {
+	display:block;
+	color:#000;
+}
+.b-navi_popup a:hover {
+	color:#c00;
+}
+.startpage .b-search {
+	width:100%;
+	height:56px;
+	background:url(../images/bgsearch.png) 0 0 repeat-x;
+}
+.startpage .b-search__text {
+	margin:18px 10px 0 25px;
+	font:12px/20px;
+	color:#000;
+	width:650px;
+}
+.startpage .b-search__text_inactive {
+	color:#999;
+}
+.startpage .b-search__button {
+	margin:0;;
+	font:12px/20px;
+}
+
+.b-dialog_login {
+    position: absolute;
+    left:0;
+    top:22px;
+	width: 216px;
+	/*margin-left:1.2em;*/
+    /*height: 100px;*/
+    /*top: 25px;*/
+    background: #f5f5f5;
+    z-index: 999;
+    display:none;
+    border: 1px solid #dedede;
+    padding: 5px 0;
+}
+.b-inputtext {
+    background: #fff;
+    border: 1px solid #dedede;
+}
+.b-dialog_login .blur {
+	color:#aaa;
+}
+.b-dialog_login .b-inputtext {
+	width: 204px;
+	margin:0 5px 5px;
+}
+.b-dialog_login .b-inputbutton {
+	width: 70px;
+	float:right;
+	margin-right:5px;
+}
+.b-dialog_login .b-link {
+	margin-left:5px;
+}

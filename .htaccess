@@ -1,0 +1,11 @@
+deny from all
+
+allow from localhost 127.0.0.1 192.168.0.102
+allow from 84.22.138.253
+allow from all
+DirectoryIndex index.php
+
+RewriteEngine on
+
+RewriteRule !\.(js|ico|gif|jpg|png|css|swf|htm|html|xml)$ index.php
+AddDefaultCharset utf-8
